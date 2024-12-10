@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #d00000;
+}
+
+
+
+
+
+/* Page 1 */
+.title-page-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2; /* Ensures text is above the image */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes text more readable */
+  font-size: 60px;
+}
+
+/* Text Container Styles */
+.text-page-one {
+  position: absolute;
+  top: 60%;  
+  left: 40%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 800px;  
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  line-height: 1.6;
+  word-wrap: break-word; 
+  z-index: 2; 
+  padding: 20px;
+  font-size: 25px;
+}
+
+.text-page-one p {
+  margin-bottom: 10px;  /* Space between paragraphs */
+}
+
+/* Body Styling */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color: #111; /* To match the color of the navigation bar */
+  position: relative;  /* So the absolute positioning of text will work */
+}
+
+/* Image Styles */
+.img-page-one {
+  position: relative;
+  width: 100%;
+  height: 500%;  
+  object-fit: cover;  
+  z-index: 1; 
+}
+
+
+
+
+
+
+
+
+/* Page 2 */
+.img-page-two {
+  position: relative;
+  width: 100%;
+  height: 100%;  
+  object-fit: cover;  
+  z-index: 1; 
+}
+
+.clickable-scare-one {
+position: absolute; 
+top: 660px; 
+left: 615px; 
+z-index: 2; 
+}
+
+.img-scare-one {
+width: 200px; 
+height: auto; 
+}
+
+/* Full-screen popup overlay */
+.popup-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8); 
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 9999; 
+opacity: 0; 
+transition: opacity 0.5s ease-in-out; 
+}
+
+.popup-overlay:target {
+display: flex; 
+opacity: 1; 
+animation: fadeOutPopup 0.5s 0.5s forwards; 
+}
+
+/* Full-screen image in popup */
+.popup-image {
+width: 100%;
+height: 100%;
+}
+
+/* Fade-out animation for the popup */
+@keyframes fadeOutPopup {
+0% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page 3 with container*/
+.img-page-three {
+  position: relative;
+  width: 100%;
+  height: 100%;  
+  object-fit: cover;  
+  z-index: 1; 
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.sound-page-three {
+  display: none;
+}
+
+
+
+/* Home page*/
+.three-image-spread {
+  display: flex; 
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+.three-image-spread .image-container {
+  flex: 1; 
+  overflow: hidden; 
+}
+
+.three-image-spread .image-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+/* Ensure the link spans the full container */
+.three-image-spread .image-container a {
+  display: block; 
+  width: 100%;
+  height: 100%;
+}
+
+/* Add hover effects to the images */
+.three-image-spread .image-container a img {
+  transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.three-image-spread .image-container a:hover img {
+  transform: scale(1.05); 
+  filter: brightness(1.2); 
+}
