@@ -113,6 +113,18 @@ width: 200px;
 height: auto; 
 }
 
+.clickable-scare-two {
+  position: absolute; 
+  top: 1180px; 
+  left: 1000px; 
+  z-index: 2; 
+  }
+
+.img-scare-two {
+  width: 360px; 
+  height: auto; 
+  }
+
 /* Full-screen popup overlay */
 .popup-overlay {
 position: fixed;
