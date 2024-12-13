@@ -95,7 +95,7 @@ body {
 /* Page 2 */
 .img-page-two {
   position: relative;
-  width: 2100px;
+  width: 2025px;
   height: 100%;  
   object-fit: cover;  
   z-index: 1; 
