@@ -109,7 +109,7 @@ z-index: 2;
 }
 
 .img-scare-one {
-width: 200px; 
+width: 100%; 
 height: auto; 
 }
 
@@ -121,7 +121,7 @@ height: auto;
   }
 
 .img-scare-two {
-  width: 360px; 
+  width: 100%; 
   height: auto; 
   }
 
