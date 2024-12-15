@@ -134,7 +134,7 @@ height: auto;
   .clickable-scare-three {
     position: absolute; 
     top: 1910px; 
-    left: 600px; 
+    left: 590px; 
     z-index: 2; 
     box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
     }
