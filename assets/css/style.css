@@ -103,13 +103,13 @@ body {
 
 .clickable-scare-one {
 position: absolute; 
-top: 660px; 
-left: 615px; 
+top: 520px; 
+left: 530px; 
 z-index: 2; 
 }
 
 .img-scare-one {
-width: 160%; 
+width: 120%; 
 height: auto; 
 }
 
@@ -121,7 +121,7 @@ height: auto;
   }
 
 .img-scare-two {
-  width: 160%; 
+  width: 120%; 
   height: auto; 
   }
 
