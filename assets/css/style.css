@@ -191,8 +191,8 @@ height: auto;
         
           .clickable-scare-seven {
             position: absolute; 
-            top: 6100px; 
-            left: 645px; 
+            top: 6050px; 
+            left: 650px; 
             z-index: 2; 
             box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
             }
@@ -204,7 +204,7 @@ height: auto;
             
             .clickable-scare-eight {
               position: absolute; 
-              top: 6500px; 
+              top: 6470px; 
               left: 560px; 
               z-index: 2; 
               box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
