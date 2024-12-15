@@ -274,7 +274,7 @@ height: 100%;
 
 /*page 3 with container*/
 .img-page-three {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;  
   object-fit: cover;  
@@ -293,6 +293,34 @@ height: 100%;
 .sound-page-three {
   display: none;
 }
+
+/* Outer box with a solid red border */
+.outer-box {
+  width: 320px; /* Adjust as needed */
+  height: 220px; /* Adjust as needed */
+  border: 30px solid red; /* Red border */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+/* Inner box with a black dotted border */
+.inner-box {
+  width: 280px; /* Slightly smaller than outer box */
+  height: 180px; /* Slightly smaller than outer box */
+  border: 20px dotted black; /* Black dotted border */
+  text-align: center;
+  padding: 10px; /* Optional padding for content */
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+
+
+
 
 
 
