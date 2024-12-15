@@ -128,6 +128,92 @@ height: auto;
   height: auto; 
   }
 
+
+
+
+  .clickable-scare-three {
+    position: absolute; 
+    top: 1420px; 
+    left: 510px; 
+    z-index: 2; 
+    box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+    }
+    
+    .img-scare-three {
+    width: 120%; 
+    height: auto; 
+    }
+
+
+
+    
+    .clickable-scare-four {
+      position: absolute; 
+      top: 910px; 
+      left: 760px; 
+      z-index: 2; 
+      box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+      }
+    
+    .img-scare-four {
+      width: 120%; 
+      height: auto; 
+      }
+
+      .clickable-scare-five {
+        position: absolute; 
+        top: 510px; 
+        left: 460px; 
+        z-index: 2; 
+        box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+        }
+        
+        .img-scare-five {
+        width: 120%; 
+        height: auto; 
+        }
+        
+        .clickable-scare-six {
+          position: absolute; 
+          top: 910px; 
+          left: 760px; 
+          z-index: 2; 
+          box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+          }
+        
+        .img-scare-six {
+          width: 120%; 
+          height: auto; 
+          }
+        
+          .clickable-scare-seven {
+            position: absolute; 
+            top: 510px; 
+            left: 460px; 
+            z-index: 2; 
+            box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+            }
+            
+            .img-scare-seven {
+            width: 120%; 
+            height: auto; 
+            }
+            
+            .clickable-scare-eight {
+              position: absolute; 
+              top: 910px; 
+              left: 760px; 
+              z-index: 2; 
+              box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
+              }
+            
+            .img-scare-eight {
+              width: 120%; 
+              height: auto; 
+              }      
+
+
+
 /* Full-screen popup overlay */
 .popup-overlay {
 position: fixed;
