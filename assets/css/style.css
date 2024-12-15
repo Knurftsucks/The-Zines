@@ -50,18 +50,18 @@ li a:hover {
 /* Text Container Styles */
 .text-page-one {
   position: absolute;
-  top: 60%;  
-  left: 40%;
+  top: 70%;  
+  left: 45%;
   transform: translateX(-50%);
-  width: 80%;
-  max-width: 800px;  
+  width: 70%;
+  max-width: 650px;  
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
   line-height: 1.6;
   word-wrap: break-word; 
   z-index: 2; 
   padding: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .text-page-one p {
