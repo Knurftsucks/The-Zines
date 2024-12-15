@@ -31,17 +31,23 @@
 
     <!-- First Full-screen popup -->
     <div id="popup-one" class="popup-overlay">
-      <img src="assets/images/terrifier-3.gif" class="popup-image">
+      <img src="assets/images/jump-1.gif" class="popup-image">
       <a href="#" class="close-popup"></a>
     </div>
+
+
     
-    <a href="#popup-two" class="clickable-scare-two">
+    <a href="#popup-two" class="clickable-scare-two" onclick="document.getElementById('scare-sound-two').play()">
       <img src="assets/images/click-two.gif" class="img-scare-two">
     </a>
     
+    <audio id="scare-sound-two" preload="auto">
+      <source src="assets/sound/knock-2-2.mp3" type="audio/mpeg">
+    </audio>
+
     <!-- Second Full-screen popup -->
     <div id="popup-two" class="popup-overlay">
-      <img src="assets/images/martyrs-blue.gif" class="popup-image">
+      <img src="assets/images/jump-2.gif" class="popup-image">
       <a href="#" class="close-popup"></a>
     </div>
 
