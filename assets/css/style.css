@@ -133,7 +133,7 @@ height: auto;
 
   .clickable-scare-three {
     position: absolute; 
-    top: 1900px; 
+    top: 1925px; 
     left: 600px; 
     z-index: 2; 
     box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
@@ -149,14 +149,14 @@ height: auto;
     
     .clickable-scare-four {
       position: absolute; 
-      top: 3150px; 
+      top: 3140px; 
       left: 355px; 
       z-index: 2; 
       box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
       }
     
     .img-scare-four {
-      width: 120%; 
+      width: 130%; 
       height: auto; 
       }
 
