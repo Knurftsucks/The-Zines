@@ -116,9 +116,10 @@ height: auto;
 
 .clickable-scare-two {
   position: absolute; 
-  top: 1180px; 
-  left: 1000px; 
+  top: 980px; 
+  left: 850px; 
   z-index: 2; 
+  box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
   }
 
 .img-scare-two {
