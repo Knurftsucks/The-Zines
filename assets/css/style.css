@@ -106,6 +106,7 @@ position: absolute;
 top: 510px; 
 left: 460px; 
 z-index: 2; 
+box-shadow: #d00000;
 }
 
 .img-scare-one {
