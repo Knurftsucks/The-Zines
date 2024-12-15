@@ -108,7 +108,7 @@ body {
 
 .clickable-scare-one {
 position: absolute; 
-top: 460px; 
+top: 455px; 
 left: 460px; 
 z-index: 2; 
 box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
