@@ -173,43 +173,45 @@ height: auto;
         width: 130%; 
         height: auto; 
         }
+
+
         
         .clickable-scare-six {
           position: absolute; 
-          top: 910px; 
-          left: 760px; 
+          top: 4600px; 
+          left: 700px; 
           z-index: 2; 
           box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
           }
         
         .img-scare-six {
-          width: 120%; 
+          width: 130%; 
           height: auto; 
           }
         
           .clickable-scare-seven {
             position: absolute; 
-            top: 510px; 
-            left: 460px; 
+            top: 5200px; 
+            left: 600px; 
             z-index: 2; 
             box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
             }
             
             .img-scare-seven {
-            width: 120%; 
+            width: 130%; 
             height: auto; 
             }
             
             .clickable-scare-eight {
               position: absolute; 
-              top: 910px; 
-              left: 760px; 
+              top: 5400px; 
+              left: 460px; 
               z-index: 2; 
               box-shadow: 2px 2px 30px rgba(255, 0, 0, 0.25)
               }
             
             .img-scare-eight {
-              width: 120%; 
+              width: 130%; 
               height: auto; 
               }      
 
